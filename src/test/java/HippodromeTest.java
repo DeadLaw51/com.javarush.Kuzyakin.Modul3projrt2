@@ -10,6 +10,8 @@ import java.util.Collections;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 
 class HippodromeTest {
 
@@ -49,7 +51,9 @@ class HippodromeTest {
             "Juliet","Lacey","LittleJoe","London","Lucky","Major","Mario", "Marquis","Max","Misty");
     @Test
     void getHorses(){
-        Assert.assertEquals(horses,hors);
+        assertEquals(horses,hors);
     }
+
+
 
 }

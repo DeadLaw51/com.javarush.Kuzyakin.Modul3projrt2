@@ -113,6 +113,7 @@ class HorseTest {
 
     // ПОВТОРИТЬ ПРО MOCK
 
+
     @Test
     void getRandomMove(){
         try(MockedStatic<Horse> mockedStatic = mockStatic(Horse.class)){
